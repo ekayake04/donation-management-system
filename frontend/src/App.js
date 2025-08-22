@@ -23,7 +23,7 @@ function App() {
         overflow: 'hidden'
       }}>
         <LoginForm onLogin={handleLogin} />
-        <svg width="900" height="900" style={{ position: 'absolute', bottom: '-100px', right: '-100px', zIndex: 0 }}>
+        <svg width="200" height="200" style={{ position: 'absolute', bottom: '-100px', right: '-100px', zIndex: 0 }}>
           <circle cx="800" cy="800" r="280" fill="none" stroke="#fff" strokeWidth="2" opacity="0.2"/>
           <circle cx="800" cy="800" r="200" fill="none" stroke="#fff" strokeWidth="2" opacity="0.1"/>
         </svg>
