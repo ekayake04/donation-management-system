@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function LoginForm() {
-  const cognitoLoginUrl = "https://ap-southeast-27sclhywav.auth.ap-southeast-2.amazoncognito.com/login?client_id=2eg3s02qpctiaaso349t4c8t3l&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Flocalhost%3A3000%2Fdashboard";
+  const cognitoLoginUrl = "https://ap-southeast-27sclhywav.auth.ap-southeast-2.amazoncognito.com/login?client_id=2eg3s02qpctiaaso349t4c8t3l&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fdashboard";
 
   const handleLogin = () => {
     window.location.href = cognitoLoginUrl;
