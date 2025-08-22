@@ -246,3 +246,5 @@ $RECYCLE.BIN/
 .aws-sam
 samconfig.toml
 target
+
+node_modules
