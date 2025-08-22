@@ -1,15 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import LoginForm from './components/LoginForm';
-import Dashboard from './components/Dashboard';
-import Signout from './components/Signout';
 import WelcomeSection from './components/WelcomeSection';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ClientDashboard from './components/client/ClientDashboard';
+import AdminDashboard from './components/admin/AdminDashboard';
+import Signout from './components/Signout';
 
 function App() {
   return (
     <Routes>
-      {/* Login screen (default) */}
+      {/* Login (default) */}
       <Route path="/" element={
         <div style={{ display: 'flex', minHeight: '100vh' }}>
           <div style={{ flex: 1, background: '#fff' }}>
@@ -28,10 +28,13 @@ function App() {
         </div>
       }/>
 
-      {/* Cognito redirects here after login */}
-      <Route path="/dashboard" element={<Dashboard />} />
+      {/* Client routes */}
+      <Route path="/client/dashboard" element={<ClientDashboard />} />
 
-      {/* Cognito redirects here after logout */}
+      {/* Admin routes */}
+      <Route path="/admin/dashboard" element={<AdminDashboard />} />
+
+      {/* Signout */}
       <Route path="/signout" element={<Signout />} />
     </Routes>
   );
