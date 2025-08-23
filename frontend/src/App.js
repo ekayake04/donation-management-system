@@ -5,6 +5,7 @@ import WelcomeSection from './components/WelcomeSection';
 import ClientDashboard from './components/client/ClientDashboard';
 import AdminDashboard from './components/admin/AdminDashboard';
 import AdminCampaigns from './components/admin/AdminCampaigns';
+import AdminCampaignsCreate from './components/admin/AdminCampaignsCreate';
 import Signout from './components/Signout';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       {/* Admin routes */}
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
       <Route path="/admin/campaigns" element={<AdminCampaigns />} />
+      <Route path="/admin/campaigns/create" element={<AdminCampaignsCreate />} />
 
       {/* Signout */}
       <Route path="/signout" element={<Signout />} />
