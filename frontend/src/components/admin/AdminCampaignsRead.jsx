@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AdminNavbar from './AdminNavbar';
 
-function AdminCampaigns() {
+function AdminCampaignsRead() {
   const navigate = useNavigate();
 
   return (
@@ -35,4 +35,4 @@ function AdminCampaigns() {
   );
 }
 
-export default AdminCampaigns;
+export default AdminCampaignsRead;
