@@ -5,6 +5,7 @@ import WelcomeSection from './components/WelcomeSection';
 import ClientDashboard from './components/client/ClientDashboard';
 import AdminDashboard from './components/admin/AdminDashboard';
 import Signout from './components/Signout';
+import ClientLandingPage from './components/client/ClientLandingPage';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       {/* Client routes */}
       <Route path="/client/dashboard" element={<ClientDashboard />} />
 
+      {/* Route for Client Landing Page */}
+      {/* <Route path="/" element={<ClientLandingPage />} /> */}
+
       {/* Admin routes */}
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
 
@@ -39,5 +43,6 @@ function App() {
     </Routes>
   );
 }
+
 
 export default App;
