@@ -4,6 +4,7 @@ import LoginForm from './components/LoginForm';
 import WelcomeSection from './components/WelcomeSection';
 import ClientDashboard from './components/client/ClientDashboard';
 import AdminDashboard from './components/admin/AdminDashboard';
+import AdminCampaigns from './components/admin/AdminCampaigns';
 import Signout from './components/Signout';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 
       {/* Admin routes */}
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
+      <Route path="/admin/campaigns" element={<AdminCampaigns />} />
 
       {/* Signout */}
       <Route path="/signout" element={<Signout />} />
