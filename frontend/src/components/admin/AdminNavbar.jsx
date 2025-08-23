@@ -13,9 +13,9 @@ export default function AdminNavbar() {
         <span className="navbar-title">Admin Dashboard</span>
       </div>
       <div className="navbar-center">
-        <a href="/dashboard" className="navbar-link">Dashboard</a>
-        <a href="/donations" className="navbar-link">Donations</a>
-        <a href="/campaigns" className="navbar-link">Campaigns</a>
+        <a href="/admin/dashboard" className="navbar-link">Dashboard</a>
+        <a href="/admin/donations" className="navbar-link">Donations</a>
+        <a href="/admin/campaigns" className="navbar-link">Campaigns</a>
       </div>
     </nav>
   );
