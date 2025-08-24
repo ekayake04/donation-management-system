@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ClientNavbar from './ClientNavbar';
+import ClientMissionVision from './ClientMissionVision';
 
 function ClientLandingPage() {
   return (
@@ -109,10 +110,17 @@ function ClientLandingPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus lorem sed nibh iaculis, a aliquet leo iaculis. Aenean tempor, turpis et dictum volutpat, eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus lorem sed nibh iaculis, a aliquet leo iaculis. Aenean tempor, turpis et dictum volutpat, eros.
                 </p>
               </div>
+
             </div>
+                          
           </div>
         </div>
       </section>
+        <section>
+          <div>
+            <ClientMissionVision />
+          </div>
+        </section>
     </div>
   );
 }
