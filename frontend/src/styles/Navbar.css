@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   background: #573b58;
   height: 124px;
   padding: 0 40px;
@@ -12,6 +12,12 @@
 .navbar-left {
   display: flex;
   align-items: center;
+}
+
+.navbar-right-wrapper { 
+  display: flex;
+  align-items: center;
+  gap: 36px; 
 }
 
 .navbar-logo {
@@ -44,10 +50,6 @@
 
 .navbar-link:hover {
   color: #ffd700;
-}
-
-.navbar-right {
-  margin-left: 20px;
 }
 
 .donate-btn {
