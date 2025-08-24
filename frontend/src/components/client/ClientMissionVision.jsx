@@ -13,8 +13,8 @@ function ClientMissionVision() {
         <div className="row align-items-center">
           {/* Left column - Text */}
           <div className="col-lg-6">
-            <h2 style={{ fontWeight: 'bold', fontSize: '2.7rem', marginBottom: '2rem', color: '#513351' }}>
-               ABOUT TALIKALA INC.
+            <h2 style={{ fontWeight: 'bold', fontSize: '2.7rem', marginBottom: '2rem' }}>
+               ABOUT <span style={{ color: '#513351' }}>TALIKALA INC.</span>
             </h2>
 
             {/* Mission */}
